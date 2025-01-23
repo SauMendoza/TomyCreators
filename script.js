@@ -29,7 +29,7 @@ function handleSymbol(symbol){
             runningTotal = 0;
             break;
             case "←":
-                if(buffer.length ===1){
+                if(buffer.length ==1){
                     buffer = "0";
                 }else{
                     buffer = buffer.substring(0, buffer.length - 1);
